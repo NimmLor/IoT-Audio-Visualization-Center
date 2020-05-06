@@ -1,0 +1,40 @@
+﻿<mah:MetroWindow x:Class="Analyzer.Networkscanner"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:local="clr-namespace:Analyzer"
+        mc:Ignorable="d"
+        Title="Networkscanner" Height="450" Width="650">
+    <Grid>
+        <Label Content="IP-Range: " Margin="10,13,565,379"/>
+        <TextBox x:Name="IPstart" HorizontalAlignment="Left" Height="23" Margin="82,13,0,0" TextWrapping="Wrap" Text="192.168.0.1" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="IPend" HorizontalAlignment="Left" Height="23" Margin="197,13,0,0" TextWrapping="Wrap" Text="192.168.0.250" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="btnScan" Width="140" Content="Start Networkscan" VerticalAlignment="Top" Click="BtnScan_Click" Margin="325,13,177,0"/>
+        <Button x:Name="btnCancel" Width="140" IsEnabled="False" Content="Cancel" HorizontalAlignment="Left"  VerticalAlignment="Top" Click="BtnCancel_Click" Margin="482,13,0,0"/>
+        <DataGrid x:Name="dgDevices" ItemsSource="{Binding Path=MyUtils.NetworkDevices, Mode=OneWay}" AutoGenerateColumns="False" HorizontalAlignment="Left" Margin="10,45,0,10" Width="622" Foreground="#FF727272" IsReadOnly="True" ScrollViewer.CanContentScroll="False" Panel.ZIndex="2">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding DisplayPing}" Header="Ping"/>
+                <DataGridTextColumn Binding="{Binding IP}" Header="IP-Address"/>
+                <DataGridTextColumn Binding="{Binding Hostname}" Header="Hostname"/>
+                <DataGridTemplateColumn Header="Action">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Button Grid.Column="0" CommandParameter="{Binding IP}"  Name="btnOpenWeb" IsEnabled="{Binding isLedDevice}" Click="BtnOpenWeb_Click">Open Website</Button>
+                                <Button Grid.Column="1" CommandParameter="{Binding IP}" Name="btnAddDevice" IsEnabled="{Binding isLedDevice}" Click="btnAddDevice_Click" >Add Device</Button>
+                            </Grid>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <!--<DataGridTextColumn Binding="{Binding allResponse}" Header="Response"/>-->
+            </DataGrid.Columns>
+        </DataGrid>
+        
+    </Grid>
+</mah:MetroWindow>

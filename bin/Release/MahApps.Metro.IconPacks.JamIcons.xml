@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MahApps.Metro.IconPacks.JamIcons</name>
+    </assembly>
+    <members>
+        <member name="M:MahApps.Metro.IconPacks.Converter.PackIconJamIconsKindToImageConverter.GetPathData(System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="M:MahApps.Metro.IconPacks.Converter.PackIconJamIconsKindToImageConverter.GetScaleTransform(System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="T:MahApps.Metro.IconPacks.PackIconJamIcons">
+            <summary>
+            Jam Icons licensed under the MIT License <see><cref>https://github.com/michaelampr/jam/blob/master/LICENSE</cref></see>
+            Contributions, corrections and requests can be made on GitHub <see><cref>https://github.com/michaelampr/jam</cref></see>.
+            </summary>
+        </member>
+        <member name="P:MahApps.Metro.IconPacks.PackIconJamIcons.Kind">
+            <summary>
+            Gets or sets the icon to display.
+            </summary>
+        </member>
+        <member name="T:MahApps.Metro.IconPacks.PackIconJamIconsDataFactory">
+            ******************************************
+            This code is auto generated. Do not amend.
+            ******************************************
+        </member>
+        <member name="M:MahApps.Metro.IconPacks.JamIconsImageExtension.GetPathData(System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="M:MahApps.Metro.IconPacks.JamIconsImageExtension.GetScaleTransform(System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="T:MahApps.Metro.IconPacks.PackIconJamIconsKind">
+            ******************************************
+            This code is auto generated. Do not amend.
+            ******************************************
+            <summary>
+            List of available icons for use with <see cref="T:MahApps.Metro.IconPacks.PackIconJamIcons" />.
+            </summary>
+            <remarks>
+            Jam Icons licensed under the MIT License <see><cref>https://github.com/michaelampr/jam/blob/master/LICENSE</cref></see>
+            Contributions, corrections and requests can be made on GitHub <see><cref>https://github.com/michaelampr/jam</cref></see>.
+            </remarks>
+        </member>
+    </members>
+</doc>

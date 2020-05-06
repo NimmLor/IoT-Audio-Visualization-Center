@@ -1,0 +1,78 @@
+﻿<mah:MetroWindow
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Analyzer"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" x:Class="Analyzer.MainWindow"
+    xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        xmlns:controls="clr-namespace:Analyzer"
+        mc:Ignorable="d"
+    Name="MainWindow_Window"
+    Closed="MetroWindow_Closed" SizeChanged="MainWindow_SizeChanged"
+        Title="Audio Visualization"  Height="760" Width="800" WindowStartupLocation="CenterScreen" MinWidth="425" MinHeight="310" Icon="Resources/AppIcon.ico">
+    <!--
+    <mah:MetroWindow.Flyouts>
+        <mah:FlyoutsControl>
+            <mah:Flyout Name="FlyoutBar" Header="More" Position="Right" Width="400" Margin="0,-25,0,25" mah:ControlsHelper.HeaderMargin="290,33,0,0" >
+                <Button x:Name="button" Style="{DynamicResource MahApps.Metro.Styles.MetroCircleButtonStyle}" Content="{iconPacks:FontAwesome Kind=PlusSolid}" HorizontalAlignment="Left" Margin="719,53,0,0" VerticalAlignment="Top"/>
+
+
+            </mah:Flyout>
+        </mah:FlyoutsControl>
+    </mah:MetroWindow.Flyouts>
+    -->
+    <Grid>
+        <!--<GroupBox x:Name="grpSettings" Header="Settings" Height="245" Margin="10,10,10,0" VerticalAlignment="Top" FontSize="16">-->
+        <Grid>
+            <Label Content="200%" Margin="0,59,200,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="39"/>
+            <Label Content="50%" Margin="0,236,206,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="33"/>
+            <Slider Name="sldSourceScale" Ticks="50,75,100,150,200,250,300,350,400" IsSnapToTickEnabled="true" BorderBrush="White" Background="{x:Null}" Foreground="{x:Null}" mah:SliderHelper.EnableMouseWheel="ControlFocused" mah:SliderHelper.ThumbFillBrush="#FFCFCFCF" mah:SliderHelper.ThumbFillHoverBrush="#FFCFCFCF" mah:SliderHelper.ThumbFillPressedBrush="#FFCFCFCF" mah:SliderHelper.ThumbFillDisabledBrush="Black" Width="30" Margin="0,85,209,0" HorizontalAlignment="Right" Maximum="400" Minimum="50" Orientation="Vertical" ValueChanged="sldSourceScale_ValueChanged" Value="100" SmallChange="10" LargeChange="10" TickPlacement="TopLeft" Height="146" VerticalAlignment="Top"/>
+            <ComboBox x:Name="cboDevices" Margin="121,11,220,0" VerticalAlignment="Top" Height="38" SelectionChanged="CboDevices_SelectionChanged"/>
+            <Label x:Name="label" Content="Audio source:" HorizontalAlignment="Left" Margin="10,16,0,0" VerticalAlignment="Top" FontSize="16"/>
+            <local:Spectrum x:Name="spcSource" BarHeight="200" TotalWidth="770" Lines="50" Margin="11,54,255,0" Smoothing="3" Height="200" VerticalAlignment="Top"  />
+            <Button x:Name="btnNewDevice" Style="{DynamicResource MahApps.Metro.Styles.MetroCircleButtonStyle}" Content="{iconPacks:FontAwesome Kind=PlusSolid}" Margin="0,16,160,0" VerticalAlignment="Top" Height="31" Click="Button_Click" HorizontalAlignment="Right" Width="32"/>
+            <Button x:Name="btnRefresh" Style="{DynamicResource MahApps.Metro.Styles.MetroCircleButtonStyle}" Content="{iconPacks:FontAwesome Kind=SyncAltSolid}" Margin="0,16,110,0" VerticalAlignment="Top" Height="31" HorizontalAlignment="Right" Width="32" Click="BtnRefresh_Click_1"/>
+            <Button x:Name="btnSettings" Style="{DynamicResource MahApps.Metro.Styles.MetroCircleButtonStyle}" Content="{iconPacks:FontAwesome Kind=CogSolid}" Margin="0,16,60,0" VerticalAlignment="Top" Height="31" HorizontalAlignment="Right" Width="32" Click="BtnSettings_Click"/>
+            <Button x:Name="btnNetworkscanner" Style="{DynamicResource MahApps.Metro.Styles.MetroCircleButtonStyle}" Content="{iconPacks:FontAwesome Kind=NetworkWiredSolid}" Margin="0,16,10,0" VerticalAlignment="Top" Height="31" HorizontalAlignment="Right" Width="32" Click="BtnNetworkscanner_Click"/>
+            <GroupBox x:Name="grpMaster" Header="Master Control" Height="200" Width="182" Margin="0,54,10,0" VerticalAlignment="Top" HorizontalAlignment="Right">
+                <mah:DropDownButton  Grid.Column="1" Name="ddbSettings" VerticalContentAlignment="Center" Content="Settings" Icon="{iconPacks:FontAwesome Kind=CogsSolid}" Margin="5,0,5,125" Foreground="White" Grid.RowSpan="2" >
+                    <mah:DropDownButton.Items>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="15*" />
+                                <ColumnDefinition Width="85*" />
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Column="0" Content="Speed:" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14"/>
+                            <Slider Grid.Column="1" x:Name="sldSpeed" HorizontalAlignment="Right" VerticalAlignment="Top" Width="210" BorderBrush="White" Background="{x:Null}" IsSnapToTickEnabled="True" Value="52" SmallChange="1" LargeChange="10" Foreground="{x:Null}" mah:SliderHelper.EnableMouseWheel="ControlFocused" mah:SliderHelper.ThumbFillBrush="#FFCFCFCF" mah:SliderHelper.ThumbFillHoverBrush="#FFCFCFCF" mah:SliderHelper.ThumbFillPressedBrush="#FFCFCFCF" mah:SliderHelper.ThumbFillDisabledBrush="Black" FontSize="16" Height="29" ValueChanged="sldSpeed_ValueChanged" Minimum="1" Maximum="255"/>
+                        </Grid>
+                        <Button x:Name="btnReboot" Content="Reboot" Click="btnReboot_Click"/>
+                        <Button x:Name="btnAlexa" Content="Alexa Pairing" Click="btnAlexa_Click"/>
+                        <Button x:Name="btnOTA" Content="OTA Update" Click="btnOTA_Click"/>
+                    </mah:DropDownButton.Items>
+                </mah:DropDownButton>
+            </GroupBox>
+        </Grid>
+
+        <!--        </GroupBox>-->
+        <!--BorderBrush="{StaticResource ResourceKey=RainbowBorderBrush}"-->
+        <GroupBox x:Name="grpDevices" Header="Devices" Margin="10,277,10,10" mah:ControlsHelper.HeaderFontSize="16" >
+            <ScrollViewer VerticalScrollBarVisibility="Hidden" CanContentScroll="True" Foreground="{x:Null}">
+                <ItemsControl Name="icDevices" ScrollViewer.CanContentScroll="True" >
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <WrapPanel/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <controls:DeviceControl MyDevice="{Binding}" Margin="12,10,12,10" ScrollViewer.CanContentScroll="True"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
+        </GroupBox>
+
+
+    </Grid>
+</mah:MetroWindow>

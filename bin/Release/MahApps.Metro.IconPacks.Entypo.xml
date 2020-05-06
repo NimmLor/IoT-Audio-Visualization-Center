@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MahApps.Metro.IconPacks.Entypo</name>
+    </assembly>
+    <members>
+        <member name="M:MahApps.Metro.IconPacks.Converter.PackIconEntypoKindToImageConverter.GetPathData(System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="T:MahApps.Metro.IconPacks.PackIconEntypo">
+            <summary>
+            All icons sourced from Entypo+ Icons Font <see><cref>http://www.entypo.com</cref></see>
+            Licensed under <see><cref>http://creativecommons.org/licenses/by-sa/4.0/</cref></see>.
+            </summary>
+        </member>
+        <member name="P:MahApps.Metro.IconPacks.PackIconEntypo.Kind">
+            <summary>
+            Gets or sets the icon to display.
+            </summary>
+        </member>
+        <member name="T:MahApps.Metro.IconPacks.PackIconEntypoDataFactory">
+            ******************************************
+            This code is auto generated. Do not amend.
+            ******************************************
+        </member>
+        <member name="M:MahApps.Metro.IconPacks.EntypoImageExtension.GetPathData(System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="T:MahApps.Metro.IconPacks.PackIconEntypoKind">
+            ******************************************
+            This code is auto generated. Do not amend.
+            ******************************************
+            <summary>
+            List of available icons for use with <see cref="T:MahApps.Metro.IconPacks.PackIconEntypo" />.
+            </summary>
+            <remarks>
+            All icons sourced from Entypo+ Icons Font <see><cref>http://www.entypo.com</cref></see>
+            Licensed under <see><cref>http://creativecommons.org/licenses/by-sa/4.0/</cref></see>.
+            </remarks>
+        </member>
+    </members>
+</doc>

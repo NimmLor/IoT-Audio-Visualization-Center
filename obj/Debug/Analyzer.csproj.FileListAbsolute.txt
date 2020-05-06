@@ -1,0 +1,327 @@
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Analyzer\obj\Debug\Analyzer.csprojAssemblyReference.cache
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Analyzer\obj\Debug\Resources\Icons.baml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Analyzer\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Analyzer\obj\Debug\MainWindow.g.cs
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Analyzer\obj\Debug\App.g.cs
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Analyzer\obj\Debug\Analyzer_MarkupCompile.cache
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Analyzer\obj\Debug\Analyzer_MarkupCompile.lref
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Analyzer\bin\Debug\Analyzer.exe.config
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Analyzer\bin\Debug\Analyzer.exe
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Analyzer\bin\Debug\Analyzer.pdb
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Analyzer\bin\Debug\Bass.Net.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Analyzer\bin\Debug\ControlzEx.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Analyzer\bin\Debug\MahApps.Metro.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Analyzer\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Analyzer\bin\Debug\Bass.Net.xml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Analyzer\bin\Debug\ControlzEx.pdb
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Analyzer\bin\Debug\MahApps.Metro.pdb
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Analyzer\bin\Debug\MahApps.Metro.xml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Analyzer\obj\Debug\MainWindow.baml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Analyzer\obj\Debug\Analyzer.g.resources
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Analyzer\obj\Debug\Analyzer.Properties.Resources.resources
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Analyzer\obj\Debug\Analyzer.csproj.GenerateResource.cache
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Analyzer\obj\Debug\Analyzer.csproj.CoreCompileInputs.cache
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Analyzer\obj\Debug\Analyzer.csproj.CopyComplete
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Analyzer\obj\Debug\Analyzer.exe
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Analyzer\obj\Debug\Analyzer.pdb
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Analyzer\obj\Debug\App.baml
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\Analyzer.exe.config
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\Analyzer.exe
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\Analyzer.pdb
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\ControlzEx.dll
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.dll
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\System.Windows.Interactivity.dll
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\ControlzEx.pdb
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.pdb
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.xml
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\Resources\Icons.baml
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\Resources\IconsNonShared.baml
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\MainWindow.g.cs
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\App.g.cs
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\Analyzer_MarkupCompile.cache
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\Analyzer_MarkupCompile.lref
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\App.baml
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\MainWindow.baml
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\Analyzer.g.resources
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\Analyzer.Properties.Resources.resources
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\Analyzer.csproj.GenerateResource.cache
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\Analyzer.csproj.CoreCompileInputs.cache
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\Analyzer.csproj.CopyComplete
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\Analyzer.exe
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\Analyzer.pdb
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\WpfVisualizer.g.cs
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\WpfVisualizer.baml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\Analyzer.exe.config
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\Analyzer.exe
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\Analyzer.pdb
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\Bass.Net.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\ControlzEx.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\Bass.Net.xml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\ControlzEx.pdb
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.pdb
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.xml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\obj\Debug\Analyzer.csprojAssemblyReference.cache
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\obj\Debug\Resources\Icons.baml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\obj\Debug\MainWindow.g.cs
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\obj\Debug\WpfVisualizer.g.cs
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\obj\Debug\App.g.cs
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\obj\Debug\Analyzer_MarkupCompile.cache
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\obj\Debug\Analyzer_MarkupCompile.lref
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\obj\Debug\App.baml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\obj\Debug\MainWindow.baml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\obj\Debug\WpfVisualizer.baml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\obj\Debug\Analyzer.g.resources
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\obj\Debug\Analyzer.Properties.Resources.resources
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\obj\Debug\Analyzer.csproj.GenerateResource.cache
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\obj\Debug\Analyzer.csproj.CoreCompileInputs.cache
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\obj\Debug\Analyzer.csproj.CopyComplete
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\obj\Debug\Analyzer.exe
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\obj\Debug\Analyzer.pdb
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\DeviceControl.g.cs
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\DeviceControl.baml
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\Newtonsoft.Json.dll
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\Newtonsoft.Json.xml
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\Spectrum.g.cs
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\Spectrum.baml
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.dll
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.dll
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Entypo.dll
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.dll
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.dll
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.dll
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Ionicons.dll
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.JamIcons.dll
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.dll
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.dll
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Microns.dll
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Modern.dll
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Octicons.dll
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.dll
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.dll
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.dll
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Typicons.dll
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Unicons.dll
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.dll
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Zondicons.dll
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.pdb
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.xml
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.pdb
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.xml
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Entypo.pdb
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Entypo.xml
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.pdb
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.xml
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.pdb
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.xml
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.pdb
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.xml
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Ionicons.pdb
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Ionicons.xml
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.JamIcons.pdb
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.JamIcons.xml
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.pdb
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.xml
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.pdb
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.xml
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Microns.pdb
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Microns.xml
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Modern.pdb
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Modern.xml
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Octicons.pdb
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Octicons.xml
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.pdb
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.xml
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.pdb
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.xml
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.pdb
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.xml
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Typicons.pdb
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Typicons.xml
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Unicons.pdb
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Unicons.xml
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.pdb
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.xml
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Zondicons.pdb
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Zondicons.xml
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\EditDevice.g.cs
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\EditDevice.baml
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\Settings.g.cs
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\Settings.baml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Entypo.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Ionicons.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.JamIcons.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Microns.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Modern.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Octicons.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Typicons.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Unicons.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Zondicons.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.pdb
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.xml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.pdb
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.xml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Entypo.pdb
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Entypo.xml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.pdb
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.xml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.pdb
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.xml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.pdb
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.xml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Ionicons.pdb
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Ionicons.xml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.JamIcons.pdb
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.JamIcons.xml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.pdb
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.xml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.pdb
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.xml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Microns.pdb
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Microns.xml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Modern.pdb
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Modern.xml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Octicons.pdb
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Octicons.xml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.pdb
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.xml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.pdb
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.xml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.pdb
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.xml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Typicons.pdb
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Typicons.xml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Unicons.pdb
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Unicons.xml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.pdb
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.xml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Zondicons.pdb
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\MahApps.Metro.IconPacks.Zondicons.xml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\obj\Debug\DeviceControl.g.cs
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\obj\Debug\EditDevice.g.cs
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\obj\Debug\Settings.g.cs
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\obj\Debug\Spectrum.g.cs
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\obj\Debug\DeviceControl.baml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\obj\Debug\EditDevice.baml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\obj\Debug\Settings.baml
+C:\Users\Lorenz Nimmervoll\source\repos\AudioVisualization\Visualizer-Streamer\Analyzer\obj\Debug\Spectrum.baml
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\Networkscanner.g.cs
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\Networkscanner.baml
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\Analyzer.csprojAssemblyReference.cache
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\Analyzer.exe.manifest
+C:\Repos\Visualizer-Streamer\Analyzer\bin\Debug\Analyzer.application
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\Analyzer.exe.manifest
+C:\Repos\Visualizer-Streamer\Analyzer\obj\Debug\Analyzer.application
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\Analyzer.exe.config
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\Analyzer.exe.manifest
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\Analyzer.application
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\Analyzer.exe
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\Analyzer.pdb
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\ControlzEx.pdb
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.pdb
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.xml
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.pdb
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.xml
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.pdb
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.BoxIcons.xml
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.Entypo.pdb
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.Entypo.xml
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.pdb
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.EvaIcons.xml
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.pdb
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.FeatherIcons.xml
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.pdb
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.xml
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.Ionicons.pdb
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.Ionicons.xml
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.JamIcons.pdb
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.JamIcons.xml
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.pdb
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.MaterialDesign.xml
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.pdb
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.MaterialLight.xml
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.Microns.pdb
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.Microns.xml
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.Modern.pdb
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.Modern.xml
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.Octicons.pdb
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.Octicons.xml
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.pdb
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.PicolIcons.xml
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.pdb
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.RPGAwesome.xml
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.pdb
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.SimpleIcons.xml
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.Typicons.pdb
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.Typicons.xml
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.Unicons.pdb
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.Unicons.xml
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.pdb
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.WeatherIcons.xml
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.Zondicons.pdb
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\MahApps.Metro.IconPacks.Zondicons.xml
+C:\Repos\IoT-Audio-Visualization-Center\bin\Debug\Newtonsoft.Json.xml
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\Analyzer.csprojAssemblyReference.cache
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\Resources\Icons.baml
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\Resources\IconsNonShared.baml
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\DeviceControl.g.cs
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\MainWindow.g.cs
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\EditDevice.g.cs
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\Networkscanner.g.cs
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\Settings.g.cs
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\Spectrum.g.cs
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\WpfVisualizer.g.cs
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\App.g.cs
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\Analyzer_MarkupCompile.cache
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\Analyzer_MarkupCompile.lref
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\App.baml
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\DeviceControl.baml
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\MainWindow.baml
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\EditDevice.baml
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\Networkscanner.baml
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\Settings.baml
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\Spectrum.baml
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\WpfVisualizer.baml
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\Analyzer.g.resources
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\Analyzer.Properties.Resources.resources
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\Analyzer.csproj.GenerateResource.cache
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\Analyzer.csproj.CoreCompileInputs.cache
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\Analyzer.exe.manifest
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\Analyzer.application
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\Analyzer.csproj.CopyComplete
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\Analyzer.exe
+C:\Repos\IoT-Audio-Visualization-Center\obj\Debug\Analyzer.pdb

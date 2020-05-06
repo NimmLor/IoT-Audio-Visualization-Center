@@ -1,0 +1,104 @@
+﻿<UserControl x:Class="Analyzer.DeviceControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Analyzer"
+             xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+             mc:Ignorable="d" 
+             Name="DeviceControlItem"
+             xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+             d:DesignHeight="360" d:DesignWidth="360">
+    <Grid>
+        <!--BorderBrush="{StaticResource ResourceKey=RainbowBorderBrush}"-->
+        <GroupBox  x:Name="grpDevice" Header="{Binding DeviceName, ElementName=DeviceControlItem}" Height="360" Width="360" Margin="0,0,0,0" VerticalAlignment="Top" mah:ControlsHelper.HeaderFontSize="14" mah:ControlsHelper.ContentCharacterCasing="Normal">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="95*"/>
+                    <RowDefinition Height="246*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.ColumnSpan="2" Grid.RowSpan="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="40*" />
+                        <ColumnDefinition Width="8*" />
+                    </Grid.ColumnDefinitions>
+                    <Label  Grid.Column="0" x:Name="lblDetails" Content="{Binding Details, ElementName=DeviceControlItem}" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="14" Height="29" Width="155" Panel.ZIndex="1"/>
+                    <ToggleButton Name="tbtnPower" Margin="0,5,10,0" Height="40" Width="40" 
+              Style="{DynamicResource MetroCircleToggleButtonStyle}" Grid.Column="1" Checked="ToggleButton_Checked" Unchecked="ToggleButton_Checked" HorizontalAlignment="Right" VerticalAlignment="Top">
+                        <Rectangle Width="20" Height="20" Fill="{Binding Path=Foreground, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ToggleButton}}}">
+                            <Rectangle.OpacityMask>
+                                <VisualBrush Stretch="Fill" Visual="{iconPacks:FontAwesome Kind=PowerOffSolid}"/>
+                            </Rectangle.OpacityMask>
+                        </Rectangle>
+                    </ToggleButton>
+                </Grid>
+
+
+                <Slider Grid.Column="0" Grid.ColumnSpan="2" x:Name="sld" HorizontalAlignment="Left" Margin="92,44,0,0" VerticalAlignment="Top" Width="210" BorderBrush="White" Background="{x:Null}" IsSnapToTickEnabled="True" Value="52" SmallChange="1" LargeChange="10" Foreground="{x:Null}" mah:SliderHelper.EnableMouseWheel="ControlFocused" mah:SliderHelper.ThumbFillBrush="#FFCFCFCF" mah:SliderHelper.ThumbFillHoverBrush="#FFCFCFCF" mah:SliderHelper.ThumbFillPressedBrush="#FFCFCFCF" mah:SliderHelper.ThumbFillDisabledBrush="Black" FontSize="16" Height="29" ValueChanged="DeviceSlider_ValueChanged"/>
+                <Label Grid.Column="0" x:Name="lblText" Content="Brightness:" HorizontalAlignment="Left" Margin="10,44,0,0" VerticalAlignment="Top" FontSize="14"/>
+                <Label Grid.Column="1" x:Name="lblBrit" Content="50%" HorizontalAlignment="Right" Margin="0,44,10,0" VerticalAlignment="Top" FontSize="14"/>
+                <!--<CheckBox x:Name="ckbEnable" Content="Stream Data" HorizontalAlignment="Left" Margin="15,78,0,0" VerticalAlignment="Top" Checked="CkbEnable_Changed" Unchecked="CkbEnable_Changed"/>-->
+                <mah:ToggleSwitch Grid.Column="0" Name="ckbEnable" Header="Stream Data" OnLabel="On" OffLabel="Off" Margin="10,78,10,212" Checked="CkbEnable_Changed" Unchecked="CkbEnable_Changed" FontSize="14" Foreground="White" mah:ControlsHelper.HeaderFontSize="12" ContentPadding="0,0,4,0" mah:ControlsHelper.HeaderMargin="0,0,0,-8" Grid.RowSpan="2"/>
+
+
+
+                <mah:DropDownButton  Grid.Column="1" Name="ddbSettings" VerticalContentAlignment="Center" Content="Settings" Icon="{iconPacks:FontAwesome Kind=CogsSolid}" Margin="0,78,10,212" Foreground="White" Grid.RowSpan="2" >
+                    <mah:DropDownButton.Items>
+                        <mah:ToggleSwitch Grid.Column="1" Name="ckbSmoothing" Header="Smooth Speectrum" OnLabel="On" OffLabel="Off" Checked="CkbSmoothing_Changed" Unchecked="CkbSmoothing_Changed" FontSize="14" Foreground="White" mah:ControlsHelper.HeaderFontSize="11" ContentPadding="0,0,4,0" mah:ControlsHelper.HeaderMargin="0,0,0,-8"/>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="15*" />
+                                <ColumnDefinition Width="85*" />
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Column="0" x:Name="lblSpeed" Content="Speed: " HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14"/>
+                            <Slider Grid.Column="1" x:Name="sldSpeed" HorizontalAlignment="Right" VerticalAlignment="Top" Width="210" BorderBrush="White" Background="{x:Null}" IsSnapToTickEnabled="True" Value="52" SmallChange="1" LargeChange="10" Foreground="{x:Null}" mah:SliderHelper.EnableMouseWheel="ControlFocused" mah:SliderHelper.ThumbFillBrush="#FFCFCFCF" mah:SliderHelper.ThumbFillHoverBrush="#FFCFCFCF" mah:SliderHelper.ThumbFillPressedBrush="#FFCFCFCF" mah:SliderHelper.ThumbFillDisabledBrush="Black" FontSize="16" Height="29" ValueChanged="sldSpeed_ValueChanged" Minimum="1" Maximum="255"/>
+                        </Grid>
+                        <Button x:Name="btnReboot" Content="Reboot" Click="btnReboot_Click"/>
+                        <Button x:Name="btnAlexa" Content="Alexa Pairing" Click="btnAlexa_Click"/>
+                        <Button x:Name="btnOTA" Content="OTA Update" Click="btnOTA_Click"/>
+                    </mah:DropDownButton.Items>
+                </mah:DropDownButton>
+
+                <Button Grid.Column="0" x:Name="btnWeb" Content="Open Webinterface" Margin="10,184.667,10,0" VerticalAlignment="Top" FontSize="12" Click="BtnWeb_Click" Grid.Row="1"/>
+                <Button Grid.Column="1"  x:Name="btnEdit" Content="Edit Device" Margin="10,184.667,10,0" VerticalAlignment="Top" FontSize="12" Click="BtnEdit_Click" Grid.Row="1"/>
+                <!--<ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="10,133,0,0" VerticalAlignment="Top" Width="330" Height="26"/>-->
+                <Grid Grid.ColumnSpan="2" Grid.RowSpan="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="1*" />
+                    </Grid.ColumnDefinitions>
+                    <mah:DropDownButton  Grid.Column="0" Name="ddbVisualizers" VerticalContentAlignment="Center" Content="Visualization" Icon="{iconPacks:FontAwesome Kind=MusicSolid}" Margin="5,134,5,161" Foreground="White" Click="ddb_ContextMenuOpening" >
+                        <mah:DropDownButton.ItemTemplate>
+                            <DataTemplate>
+                                <MenuItem Name="MenuVisualizers" Header="{Binding}" Click="dropDrop_Selected" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" />
+                            </DataTemplate>
+                        </mah:DropDownButton.ItemTemplate>
+                    </mah:DropDownButton>
+                    <mah:DropDownButton Grid.Column="1" Name="ddbPatterns" Click="ddb_ContextMenuOpening" VerticalContentAlignment="Center" Content="Patterns" Icon="{iconPacks:FontAwesome Kind=DnaSolid}" Margin="5,134,5,161" Foreground="White" >
+                        <mah:DropDownButton.ItemTemplate>
+                            <DataTemplate>
+                                <MenuItem Name="MenuRegularPatterns" Header="{Binding}" Click="dropDrop_Selected" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch" />
+                            </DataTemplate>
+                        </mah:DropDownButton.ItemTemplate>
+                    </mah:DropDownButton>
+                    <mah:DropDownButton Grid.Column="2" Name="ddbTwinkles" VerticalContentAlignment="Center" Content="Twinkles" Icon="{iconPacks:FontAwesome Kind=BuildingRegular}" Margin="5,134,5,161" Foreground="White" Click="ddb_ContextMenuOpening" >
+                        <mah:DropDownButton.ItemTemplate>
+                            <DataTemplate>
+                                <MenuItem Name="MenuTwinkles" Header="{Binding}" Click="dropDrop_Selected" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch" />
+                            </DataTemplate>
+                        </mah:DropDownButton.ItemTemplate>
+                    </mah:DropDownButton>
+                </Grid>
+
+                <local:Spectrum x:Name="spcDev" Grid.ColumnSpan="2" BarHeight="85" TotalWidth="330" Width="330" Margin="10,0,10,66" Lines="{Binding BandCount}" SpecName="{Binding DeviceName}" Smoothing="{Binding Smoothing}" Height="85" VerticalAlignment="Bottom" Grid.Row="1"/>
+
+            </Grid>
+        </GroupBox>
+    </Grid>
+</UserControl>

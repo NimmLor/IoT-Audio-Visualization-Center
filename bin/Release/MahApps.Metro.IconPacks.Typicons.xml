@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MahApps.Metro.IconPacks.Typicons</name>
+    </assembly>
+    <members>
+        <member name="M:MahApps.Metro.IconPacks.Converter.PackIconTypiconsKindToImageConverter.GetPathData(System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="M:MahApps.Metro.IconPacks.Converter.PackIconTypiconsKindToImageConverter.GetScaleTransform(System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="T:MahApps.Metro.IconPacks.PackIconTypicons">
+            <summary>
+            Typicons Icons/Artwork distributed under [CC BY-SA](<see><cref>https://creativecommons.org/licenses/by-sa/3.0/</cref></see>) licence.
+            Typicons Font distributed under 'SIL Open Font License' licence.
+            </summary>
+        </member>
+        <member name="P:MahApps.Metro.IconPacks.PackIconTypicons.Kind">
+            <summary>
+            Gets or sets the icon to display.
+            </summary>
+        </member>
+        <member name="T:MahApps.Metro.IconPacks.PackIconTypiconsDataFactory">
+            ******************************************
+            This code is auto generated. Do not amend.
+            ******************************************
+        </member>
+        <member name="M:MahApps.Metro.IconPacks.TypiconsImageExtension.GetPathData(System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="M:MahApps.Metro.IconPacks.TypiconsImageExtension.GetScaleTransform(System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="T:MahApps.Metro.IconPacks.PackIconTypiconsKind">
+            ******************************************
+            This code is auto generated. Do not amend.
+            ******************************************
+            <summary>
+            List of available icons for use with <see cref="T:MahApps.Metro.IconPacks.PackIconTypicons" />.
+            </summary>
+            <remarks>
+            Typicons Icons/Artwork distributed under [CC BY-SA](<see><cref>https://creativecommons.org/licenses/by-sa/3.0/</cref></see>) licence.
+            Typicons Font distributed under 'SIL Open Font License' licence.
+            </remarks>
+        </member>
+    </members>
+</doc>
