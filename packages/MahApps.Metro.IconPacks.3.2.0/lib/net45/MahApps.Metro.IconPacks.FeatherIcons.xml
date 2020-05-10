@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MahApps.Metro.IconPacks.FeatherIcons</name>
+    </assembly>
+    <members>
+        <member name="M:MahApps.Metro.IconPacks.Converter.PackIconFeatherIconsKindToImageConverter.GetPathData(System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="M:MahApps.Metro.IconPacks.Converter.PackIconFeatherIconsKindToImageConverter.GetDrawingGroup(System.Object,System.Windows.Media.Brush,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="T:MahApps.Metro.IconPacks.PackIconFeatherIcons">
+            <summary>
+            Feather is licensed under the MIT License <see><cref>https://github.com/feathericons/feather/blob/master/LICENSE</cref></see>
+            Contributions, corrections and requests can be made on GitHub <see><cref>https://github.com/feathericons/feather</cref></see>.
+            </summary>
+        </member>
+        <member name="P:MahApps.Metro.IconPacks.PackIconFeatherIcons.Kind">
+            <summary>
+            Gets or sets the icon to display.
+            </summary>
+        </member>
+        <member name="T:MahApps.Metro.IconPacks.PackIconFeatherIconsDataFactory">
+            ******************************************
+            This code is auto generated. Do not amend.
+            ******************************************
+        </member>
+        <member name="M:MahApps.Metro.IconPacks.FeatherIconsImageExtension.GetPathData(System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="M:MahApps.Metro.IconPacks.FeatherIconsImageExtension.GetDrawingGroup(System.Object,System.Windows.Media.Brush,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="T:MahApps.Metro.IconPacks.PackIconFeatherIconsKind">
+            ******************************************
+            This code is auto generated. Do not amend.
+            ******************************************
+            <summary>
+            List of available icons for use with <see cref="T:MahApps.Metro.IconPacks.PackIconFeatherIcons" />.
+            </summary>
+            <remarks>
+            Feather is licensed under the MIT License <see><cref>https://github.com/feathericons/feather/blob/master/LICENSE</cref></see>
+            Contributions, corrections and requests can be made on GitHub <see><cref>https://github.com/feathericons/feather</cref></see>.
+            </remarks>
+        </member>
+    </members>
+</doc>

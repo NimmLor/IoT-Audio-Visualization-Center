@@ -13,6 +13,9 @@ namespace Analyzer
 {
     public partial class MainWindow : MetroWindow
     {
+        private string loadedAudioDevice = "";
+        private bool audioDeviceLoaded = false;
+        private bool deviceListInitialized = false;
 
         public MainWindow()
         {
@@ -24,8 +27,23 @@ namespace Analyzer
             cboDevices.SelectedIndex = 0;
             Load();
             RefreshDeviceList();
+            //ThreadPool.QueueUserWorkItem(new WaitCallback(delegate (object state) { LoadAudioDevice(); }), null);
+            //ThreadPool.QueueUserWorkItem(new WaitCallback(delegate (object state) { LoadAudioDevice(); }), null);
+        }
 
-
+        public void LoadAudioDevice()
+        {
+            while (!deviceListInitialized || String.IsNullOrEmpty(loadedAudioDevice)) if(loadedAudioDevice == null)return;
+            cboDevices.Dispatcher.Invoke(() =>
+            {
+                if (cboDevices.Items.Contains(loadedAudioDevice as object))
+            {
+                cboDevices.SelectedIndex = cboDevices.Items.IndexOf(loadedAudioDevice as object);
+                MyUtils.SwitchDeviceFromString(loadedAudioDevice);
+                restartSourceSpectrum();
+                audioDeviceLoaded = true;
+            }
+            });
         }
 
         public void RefreshDeviceList()
@@ -38,18 +56,24 @@ namespace Analyzer
 
         private void InitDevices()
         {
-            cboDevices.Items.Clear();
+            List<string> toAdd = new List<string>();
             for (int i = 0; i < BassWasapi.BASS_WASAPI_GetDeviceCount(); i++)
-            {
-                var device = BassWasapi.BASS_WASAPI_GetDeviceInfo(i);
-                if (device.IsEnabled && device.IsLoopback)
                 {
-                    cboDevices.Items.Add(string.Format("{0} - {1}", i, device.name));
+                    var device = BassWasapi.BASS_WASAPI_GetDeviceInfo(i);
+                    if (device.IsEnabled && device.IsLoopback)
+                    {
+                    toAdd.Add(string.Format("{0} - {1}", i, device.name));
+                    }
                 }
-            }
+            cboDevices.Dispatcher.Invoke(() =>
+            {
+                cboDevices.Items.Clear();
+                foreach(string s in toAdd)cboDevices.Items.Add(s);
+            });
             //cboDevices.SelectedIndex = 0;
             Bass.BASS_SetConfig(BASSConfig.BASS_CONFIG_UPDATETHREADS, false);
             if (!Bass.BASS_Init(0, 44100, BASSInit.BASS_DEVICE_DEFAULT, IntPtr.Zero)) MessageBox.Show("Error while initializing the sound device");
+            deviceListInitialized = true;
         }
 
         private void CboDevices_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -63,7 +87,7 @@ namespace Analyzer
             }
             string s = (sender as ComboBox).SelectedItem as string;
             MyUtils.SwitchDeviceFromString(s);
-            spcSource.wucd.Start();
+            StartWpfUserControls();
             //StartWpfUserControls();
         }
 
@@ -84,28 +108,15 @@ namespace Analyzer
 
         public void StartWpfUserControls()
         {
+            spcSource.wucd.Stop();
+            spcSource.wucd.Start();
             foreach (Spectrum y in MyUtils.FindVisualChildren<Spectrum>(Application.Current.Windows.OfType<Window>().SingleOrDefault(x => x.IsActive)))
             {
                 y.wucd.Stop();
                 y.wucd.Start();
             }
-            spcSource.wucd.Stop();
-            spcSource.wucd.Start();
         }
 
-        public void CreateWpfViz()
-        {
-            WpfDisplay wpfd = new WpfDisplay(new WpfVisualizer(1));
-            MyUtils.ap.AudioAvailable += new AudioProcessor.AudioAvailableEventHandler(wpfd.UpdateValues);
-            wpfd.Start();
-        }
-
-        public void TestCom5()
-        {
-            SerialComDevice c5 = new SerialComDevice("COM5", 115200, 32);
-            MyUtils.ap.AudioAvailable += new AudioProcessor.AudioAvailableEventHandler(c5.UpdateValues);
-            c5.Start();
-        }
 
         private void BtnRefresh_Click(object sender, RoutedEventArgs e)
         {
@@ -126,10 +137,10 @@ namespace Analyzer
             int smoothing = 0;
 
             var x = new MetroDialogSettings();
-            x.AffirmativeButtonText = "Next" ;
+            x.AffirmativeButtonText = "Next";
             x.NegativeButtonText = "Cancel";
             devicename = await this.ShowInputAsync("New Device", "How should the device be called?", x);
-            if (String.IsNullOrEmpty(devicename))return;
+            if (String.IsNullOrEmpty(devicename)) return;
 
             var exist = MyUtils.UdpDevices.Find(o => o.DeviceName == devicename);
             if (exist != null)
@@ -151,7 +162,7 @@ namespace Analyzer
             Thread.Sleep(500);
             bool success = MyUtils.IpReachable(ip);
             await controller.CloseAsync();
-            if(!success)
+            if (!success)
             {
                 x.AffirmativeButtonText = "Yes";
                 var cont = await this.ShowMessageAsync("The device could not be reached!", "Continue anyway?", MessageDialogStyle.AffirmativeAndNegative, x);
@@ -162,7 +173,7 @@ namespace Analyzer
             x.DefaultText = "4210";
             porttext = await this.ShowInputAsync("New Device", "On what UDP-Port should the data be sent?", x);
             if (!int.TryParse(porttext, out port)) port = -1;
-            while (port <= 0 )
+            while (port <= 0)
             {
                 porttext = await this.ShowInputAsync("Invalid Number!", "On what UDP-Port should the data be sent?", x);
                 if (String.IsNullOrEmpty(porttext)) return;
@@ -171,7 +182,7 @@ namespace Analyzer
             x.DefaultText = "32";
             string linestext = "";
 
-            if(!success)
+            if (!success)
             {
                 linestext = await this.ShowInputAsync("New Device", "How many lines of data should be sent to the device?", x);
                 if (!int.TryParse(linestext, out lines)) lines = -1;
@@ -181,7 +192,7 @@ namespace Analyzer
                     if (String.IsNullOrEmpty(linestext)) return;
                     if (!int.TryParse(linestext, out lines)) lines = -1;
                 }
-            } 
+            }
 
 
             x.DefaultText = "2";
@@ -198,7 +209,7 @@ namespace Analyzer
 
             x.AffirmativeButtonText = "Add Device";
             x.NegativeButtonText = "Cancel Device Creation";
-            var res = await this.ShowMessageAsync("Confirm", "Name: " + devicename+ "\nIP-Address: " + ip + "\nLines: " + lines, MessageDialogStyle.AffirmativeAndNegative, x);
+            var res = await this.ShowMessageAsync("Confirm", "Name: " + devicename + "\nIP-Address: " + ip + "\nLines: " + lines, MessageDialogStyle.AffirmativeAndNegative, x);
             if (res == MessageDialogResult.Negative) return;
 
             try
@@ -214,14 +225,15 @@ namespace Analyzer
             {
                 await this.ShowInputAsync("Error", "Something went wrong while creating the new device!");
             }
-            
+
 
         }
 
-        public void Save()
+        public void Save(string dev = "")
         {
             SaveObject s = new SaveObject(MyUtils.UdpDevices);
-            s.audioDevice = MyUtils.audioDevice;
+            if (String.IsNullOrEmpty(dev)) dev = MyUtils.audioDevice;
+            s.audioDevice = dev;
             MyUtils.SaveToProperties(s);
         }
 
@@ -232,24 +244,18 @@ namespace Analyzer
                 SaveObject s = MyUtils.RetrieveSettings();
                 if (s != null)
                 {
-                    if (cboDevices.Items.Contains(s.audioDevice as object))
-                    {
-                        cboDevices.SelectedIndex = cboDevices.Items.IndexOf(s.audioDevice as object);
-                        MyUtils.SwitchDeviceFromString(s.audioDevice);
-                        //StartWpfUserControls();
-                        restartSourceSpectrum();
-                    }
                     if (s.udps.Count != 0) MyUtils.UdpDevices.Clear();
                     foreach (UdpDevice u in s.udps)
                     {
-                        if(MyUtils.ValidateIp(u.Ip))
+                        if (MyUtils.ValidateIp(u.Ip))
                         {
                             var ad = new UdpDevice(u.DeviceName, u.Ip, u.Port, u.Lines, u.Smoothing);
                             //ad.Smoothing = 0;
                             MyUtils.UdpDevices.Add(ad);
-                        } 
+                        }
                     }
-                    Save();
+                    loadedAudioDevice = s.audioDevice;
+                    Save(loadedAudioDevice);
                 }
             }
             catch (Exception ex)
@@ -261,7 +267,7 @@ namespace Analyzer
 
         private void btnOTA_Click(object sender, RoutedEventArgs e)
         {
-            foreach(UdpDevice u in MyUtils.UdpDevices) u.modeOTA();
+            foreach (UdpDevice u in MyUtils.UdpDevices) u.modeOTA();
         }
 
         private void btnAlexa_Click(object sender, RoutedEventArgs e)
@@ -276,7 +282,7 @@ namespace Analyzer
 
         private void sldSpeed_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-            foreach(UdpDevice u in MyUtils.UdpDevices)u.setSpeedAsync((int)sldSpeed.Value);
+            foreach (UdpDevice u in MyUtils.UdpDevices) u.setSpeedAsync((int)sldSpeed.Value);
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -292,7 +298,7 @@ namespace Analyzer
 
         private void MainWindow_SizeChanged(object sender, SizeChangedEventArgs e)
         {
-            spcSource.TotalWidth = (int)MainWindow_Window.ActualWidth-30;
+            spcSource.TotalWidth = (int)MainWindow_Window.ActualWidth - 30;
         }
 
         private void BtnRefresh_Click_1(object sender, RoutedEventArgs e)
@@ -318,7 +324,7 @@ namespace Analyzer
 
         private void sldSourceScale_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-            MyUtils.sourceFactor = sldSourceScale.Value/100.0;
+            MyUtils.sourceFactor = sldSourceScale.Value / 100.0;
         }
     }
 }

@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MahApps.Metro.IconPacks.Typicons</name>
+    </assembly>
+    <members>
+        <member name="T:MahApps.Metro.IconPacks.PackIconTypicons">
+            <summary>
+            Typicons Icons/Artwork distributed under [CC BY-SA](<see><cref>https://creativecommons.org/licenses/by-sa/3.0/</cref></see>) licence.
+            Typicons Font distributed under 'SIL Open Font License' licence.
+            </summary>
+        </member>
+        <member name="P:MahApps.Metro.IconPacks.PackIconTypicons.Kind">
+            <summary>
+            Gets or sets the icon to display.
+            </summary>
+        </member>
+        <member name="T:MahApps.Metro.IconPacks.PackIconTypiconsDataFactory">
+            ******************************************
+            This code is auto generated. Do not amend.
+            ******************************************
+        </member>
+        <member name="T:MahApps.Metro.IconPacks.PackIconTypiconsKind">
+            ******************************************
+            This code is auto generated. Do not amend.
+            ******************************************
+            <summary>
+            List of available icons for use with <see cref="T:MahApps.Metro.IconPacks.PackIconTypicons" />.
+            </summary>
+            <remarks>
+            Typicons Icons/Artwork distributed under [CC BY-SA](<see><cref>https://creativecommons.org/licenses/by-sa/3.0/</cref></see>) licence.
+            Typicons Font distributed under 'SIL Open Font License' licence.
+            </remarks>
+        </member>
+        <member name="T:MahApps.Metro.IconPacks.PathIconTypicons">
+            <summary>
+            Typicons Icons/Artwork distributed under [CC BY-SA](<see><cref>https://creativecommons.org/licenses/by-sa/3.0/</cref></see>) licence.
+            Typicons Font distributed under 'SIL Open Font License' licence.
+            </summary>
+        </member>
+        <member name="P:MahApps.Metro.IconPacks.PathIconTypicons.Kind">
+            <summary>
+            Gets or sets the icon to display.
+            </summary>
+        </member>
+        <member name="T:MahApps.Metro.IconPacks.MahApps_Metro_IconPacks_Typicons_XamlTypeInfo.XamlMetaDataProvider">
+            <summary>
+            Main class for providing metadata for the app or library
+            </summary>
+        </member>
+        <member name="M:MahApps.Metro.IconPacks.MahApps_Metro_IconPacks_Typicons_XamlTypeInfo.XamlMetaDataProvider.GetXamlType(System.Type)">
+            <summary>
+            GetXamlType(Type)
+            </summary>
+        </member>
+        <member name="M:MahApps.Metro.IconPacks.MahApps_Metro_IconPacks_Typicons_XamlTypeInfo.XamlMetaDataProvider.GetXamlType(System.String)">
+            <summary>
+            GetXamlType(String)
+            </summary>
+        </member>
+        <member name="M:MahApps.Metro.IconPacks.MahApps_Metro_IconPacks_Typicons_XamlTypeInfo.XamlMetaDataProvider.GetXmlnsDefinitions">
+            <summary>
+            GetXmlnsDefinitions()
+            </summary>
+        </member>
+    </members>
+</doc>

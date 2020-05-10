@@ -101,13 +101,7 @@ namespace Analyzer
             // get fft data. Return value is -1 on error
             int ret = BassWasapi.BASS_WASAPI_GetData(_fft, (int)BASSData.BASS_DATA_FFT2048);
             if (ret < 0) return;
-            //_spectrumdata = getSpectrumData(_fft, _lines);
 
-            //computes the spectrum data, the code is taken from a bass_wasapi sample.
-
-
-            //if (DisplayEnable) _spectrum.Set(_spectrumdata);
-            //OnAudioAvailable(_spectrumdata);
             OnAudioAvailable(_fft);
             _spectrumdata.Clear();
 
