@@ -60,7 +60,7 @@ namespace Analyzer
             for (int i = 0; i < BassWasapi.BASS_WASAPI_GetDeviceCount(); i++)
                 {
                     var device = BassWasapi.BASS_WASAPI_GetDeviceInfo(i);
-                    if (device.IsEnabled && device.IsLoopback)
+                    if (device.IsEnabled && (device.IsLoopback || device.IsInput)) /*Add Audio Inputs to Device List*/
                     {
                     toAdd.Add(string.Format("{0} - {1}", i, device.name));
                     }
