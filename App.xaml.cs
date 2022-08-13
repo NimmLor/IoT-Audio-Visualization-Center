@@ -61,7 +61,8 @@ namespace Analyzer
             m.MenuItems.Add("Enable All").Click += (s, e) => MyUtils.EnableAll();
             m.MenuItems.Add("Disable All").Click += (s, e) => MyUtils.DisableAll();
             List<MenuItem> mItems = new List<MenuItem>();
-            for (int i = 0; i < BassWasapi.BASS_WASAPI_GetDeviceCount(); i++)
+            var deviceCount = BassWasapi.BASS_WASAPI_GetDeviceCount();
+            for (int i = 0; i < deviceCount; i++)
             {
                 var device = BassWasapi.BASS_WASAPI_GetDeviceInfo(i);
                 if (device.IsEnabled && device.IsLoopback)
