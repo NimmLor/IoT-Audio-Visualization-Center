@@ -57,7 +57,8 @@ namespace Analyzer
         private void InitDevices()
         {
             List<string> toAdd = new List<string>();
-            for (int i = 0; i < BassWasapi.BASS_WASAPI_GetDeviceCount(); i++)
+            var deviceCount = BassWasapi.BASS_WASAPI_GetDeviceCount();
+            for (int i = 0; i < deviceCount; i++)
                 {
                     var device = BassWasapi.BASS_WASAPI_GetDeviceInfo(i);
                     if (device.IsEnabled && device.IsLoopback)
